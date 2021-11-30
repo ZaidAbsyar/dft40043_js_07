@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADE</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table border="2" width="100%" cellpadding="15" cellspacing="1">
+
+        <tr>
+            <th>SUBJEK</th>
+            <th>MARKAH</th>
+            <th>GRED</th>
+        </tr>
+
+        <tr align="center">
+            <td>BM1</td>
+            <td><input type="number" min="0" max="100"  required onchange="gred(this.value,'BM1')" onkeyup="gred(this.value,'BM1');" ></td>
+            <td id="BM1"></td>
+        </tr>
+
+        <tr align="center">
+            <td>BM2</td>
+            <td><input type="number" min="0" max="100" required onchange="gred(this.value,'BM2')" onkeyup="gred(this.value,'BM1');"></td>
+            <td id="BM2"></td>
+        </tr>
+
+        <tr align="center">
+            <td>BI</td>
+            <td><input type="number" min="0" max="100" required onchange="gred(this.value,'BI')" onkeyup="gred(this.value,'BM1');"></td>
+            <td id="BI"></td>
+        </tr>
+
+        <tr align="center">
+            <td>SAINS</td>
+            <td><input type="number" min="0" max="100" required onchange="gred(this.value,'SAINS')" onkeyup="gred(this.value,'BM1');"></td>
+            <td id="SAINS"></td>
+        </tr>
+
+        <tr align="center">
+            <td>MATEMATIK</td>
+            <td><input type="number" min="0" max="100" required onchange="gred(this.value,'MATH')" onkeyup="gred(this.value,'BM1');"></td>
+            <td id="MATH"></td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
